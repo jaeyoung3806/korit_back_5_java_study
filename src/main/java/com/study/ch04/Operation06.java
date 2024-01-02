@@ -22,6 +22,7 @@ public class Operation06 {
         String name2 = new String("이재영");
 
         System.out.println(name2);
+        System.out.println(name2);
 
 
 
