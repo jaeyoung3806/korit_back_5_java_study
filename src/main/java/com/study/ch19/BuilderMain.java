@@ -4,7 +4,9 @@ package com.study.ch19;
 public class BuilderMain {
     public static void main(String[] args) {
         Car.CarBuilder carBuilder = Car.builder();
-        Car car = Car.builder().model("aaa").build();
+        Car car = Car.builder()
+                .model("aaa")
+                .build();
         System.out.println(car);
 
         Student.StudentBuilder studentBuilder = Student.builder();
